@@ -14,12 +14,11 @@ import {
   AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
 
-
 export const InsufficientCreditsModal = () => {
   const router = useRouter();
 
   return (
-    <AlertDialog open>
+    <AlertDialog defaultOpen>
       <AlertDialogContent>
         <AlertDialogHeader>
           <div className="flex-between">
