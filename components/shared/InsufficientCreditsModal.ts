@@ -18,7 +18,7 @@ export const InsufficientCreditsModal = () => {
   const router = useRouter();
 
   return (
-    <AlertDialog defaultOpen>
+    <AlertDialog defaultopen>
       <AlertDialogContent>
         <AlertDialogHeader>
           <div className="flex-between">
